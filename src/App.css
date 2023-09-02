@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Preahvihear&family=Ubuntu:ital,wght@1,500&display=swap");
+body {
+  background-image: url("./Component/74859652.jpg");
+  background-position: center;
+  object-fit: fill;
+  color: white;
+  background-repeat: no-repeat;
+  font-family: "Kanit", sans-serif;
+  font-family: "Preahvihear", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  overflow: hidden;
+}
+.container {
+  text-align: center !important;
+}
+input {
+  width: 200px;
+  display: block;
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: none;
+  transition: all 0.6s;
+  outline: none;
+  margin: 10px 0;
+}
+input:focus {
+  border: 2px solid red;
+  transition: all 0.6s;
+}
+.mainbox,
+.mainbox-2 {
+  margin: 20% auto;
+  background: rgba(229, 48, 48, 0.606);
+  background: linear-gradient(
+    182deg,
+    rgba(229, 48, 48, 0.709) 13%,
+    rgba(251, 160, 48, 0.492) 53%,
+    rgba(63, 47, 90, 0.565) 83%
+  );
+  width: 551px;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: white 2px 4px 12px 4px;
+}
+.mainbox-2 {
+  width: 800px;
+  background: linear-gradient(182deg, rgb(229, 48, 48) 13%, rgba(251, 160, 48, 0.961) 53%, rgb(63, 47, 90) 83%);
+}
+.mainbox-2 button {
+  color: white;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+button {
+  border: none;
+  padding: 10px 40px;
+  font-size: 20px;
+  position: relative;
+  background: transparent;
+  color: #ffa500;
+  text-transform: uppercase;
+  border: 3px solid #ffa500;
+  cursor: pointer;
+  transition: all 0.7s;
+  overflow: hidden;
+  border-radius: 100px;
+  text-decoration: none !important;
+}
+.bth-1{
+  margin-left: -59px;
+
+}
+
+button:hover {
+  color: #000;
+}
+span {
+  transition: all 0.7s;
+  z-index: -1;
+}
+
+button .first {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  background: #ffa500;
+}
+
+button:hover .first {
+  top: 0;
+  right: 0;
+}
+button .second {
+  content: "";
+  position: absolute;
+  left: 25%;
+  top: -100%;
+  height: 100%;
+  width: 25%;
+  background: #ffa500;
+}
+
+button:hover .second {
+  top: 0;
+  left: 50%;
+}
+
+button .third {
+  content: "";
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  top: 100%;
+  width: 25%;
+  background: #ffa500;
+}
+
+button:hover .third {
+  top: 0;
+  left: 25%;
+}
+
+button .fourth {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  height: 100%;
+  width: 25%;
+  background: #ffa500;
+}
+
+button:hover .fourth {
+  top: 0;
+  left: 0;
+}
